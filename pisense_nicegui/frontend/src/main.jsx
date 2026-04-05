@@ -279,7 +279,7 @@ function PerformanceChart({ data }) {
 function SummaryCard({ stats }) {
   const items = [
     { label: "CPU Temp", value: `${stats.temp.toFixed(1)}°C`, icon: "🌡️", color: "text-rose-400" },
-    { label: "RAM Usage", value: stats.memInfo, icon: "🧠", color: "text-violet-400" },
+    { label: "RAM Usage", value: stats.memInfo, icon: "🧠", color: "text-sky-400" },
     { label: "Network Down", value: `${stats.netRx.toFixed(2)} MB/s`, icon: "↓", color: "text-cyan-400" },
     { label: "Network Up", value: `${stats.netTx.toFixed(2)} MB/s`, icon: "↑", color: "text-amber-400" },
   ];

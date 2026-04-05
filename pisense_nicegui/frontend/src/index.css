@@ -13,11 +13,11 @@
     --secondary: 171 73% 81%;
     --secondary-foreground: 223 33% 5%;
     --muted: 223 33% 15%;
-    --muted-foreground: 215 20% 65%;
+    --muted-foreground: 215 20% 70%;
     --border: 223 33% 12%;
     --radius: 1rem;
     --chart-1: 140 80% 45%;
-    --chart-2: 255 91% 66%;
+    --chart-2: 199 89% 58%;
     --chart-3: 39 96% 52%;
     --chart-4: 349 89% 60%;
   }
@@ -66,10 +66,10 @@
 .orb1 {
   width: 600px;
   height: 600px;
-  background: #6366f1;
+  background: #10b981;
   top: -150px;
   left: -100px;
-  opacity: 0.1;
+  opacity: 0.08;
 }
 
 .orb2 {
@@ -84,8 +84,8 @@
 .orb3 {
   width: 400px;
   height: 400px;
-  background: #8b5cf6;
+  background: #f59e0b;
   top: 70%;
   left: 5%;
-  opacity: 0.07;
+  opacity: 0.06;
 }
