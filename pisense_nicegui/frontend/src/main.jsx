@@ -154,7 +154,7 @@ function Header({ status, uptime }) {
         <Cpu className="h-12 w-12 text-primary/90" />
         <div>
           <h1 className="font-headline text-2xl font-bold md:text-3xl">
-            PiSense <span className="text-primary/80">Hub</span>
+            <span className="text-violet-400">PiSense</span> <span className="text-primary/80">Hub</span>
           </h1>
           <div className="mt-1 flex items-center gap-2">
             <div className="h-2.5 w-2.5 animate-pulse rounded-full bg-green-400 shadow-[0_0_8px_#34d399]" />
@@ -279,7 +279,7 @@ function PerformanceChart({ data }) {
 function SummaryCard({ stats }) {
   const items = [
     { label: "CPU Temp", value: `${stats.temp.toFixed(1)}°C`, icon: "🌡️", color: "text-rose-400" },
-    { label: "RAM Usage", value: stats.memInfo, icon: "🧠", color: "text-sky-400" },
+    { label: "RAM Usage", value: stats.memInfo, icon: "🧠", color: "text-violet-400" },
     { label: "Network Down", value: `${stats.netRx.toFixed(2)} MB/s`, icon: "↓", color: "text-cyan-400" },
     { label: "Network Up", value: `${stats.netTx.toFixed(2)} MB/s`, icon: "↑", color: "text-amber-400" },
   ];
