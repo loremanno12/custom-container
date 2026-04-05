@@ -1,0 +1,2 @@
+implementare il modello BGE-Large-en-v1.5 da ~300m
+prestazioni come gemma3:270m letteralmente ~2/3 per risposta
